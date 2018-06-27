@@ -11,8 +11,8 @@ The goal of this repository is to produce a training session written down, full 
 [Filtering](filtering.md)
 * [Time Picker](timepicker.md)
 * [Sticky Filters](sticky_filters.md)
-* [Edit Filters](edit_filters.md)
 * [Drag & Drop](drag_drop.md)
+* [Table Results Filtering](tables.md)
 
 [Export and Sharing](export_sharing.md)
 * [Share Button](share_button.md)
