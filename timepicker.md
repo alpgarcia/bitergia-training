@@ -4,6 +4,20 @@ Most of Bitergia's panels are based on time. They show metrics for a given time
 frame. This time frame can be configured using different actions in Kibana,
 being the time picker the most explicit one.
 
+Kibana has a default value set for this time picker. This value can be
+overiden at panel level, so particular panels will store their own values.
+That's the case of **`Git Demographics`** for instance. Those decisions are
+made based on the use case each particular panel tries to help solve. For
+more information, please read the corresponding panel documentation.
+
+About the default value at Kibana level, Kibiter, which is our
+Bitergia flavoured version of Kibana, comes with it customized. It can be
+configured for a particular Kibana instance from Management ->
+Advanced settings -> `timepicker:timeDefaults`. **Please, if you wish to
+modify any Kibana setting, we encourage you to ask Bitergia's support
+team**. This way we will be able to keep track of the changes for future
+Dashboard updates that could revert Kibiter's settigs to their default values.
+
 Before going into further details about these options, it is important
 to know **this time usually refers to item creation date**. If any panel was
 based on a different time field, that information would be explicitly mentioned
@@ -26,7 +40,7 @@ Time picker allows us to select the time range using different approaches
 explained in the following sections.
 
 ## Quick Mode
-This moder allows to quickly select among a set of predefined time ranges.
+This mode allows to quickly select among a set of predefined time ranges.
 All of them are pretty self-explanatory as can be seen in the screenshot
 below.
 
